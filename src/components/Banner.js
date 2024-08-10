@@ -14,12 +14,12 @@ export const Banner = () => {
     const period = 2000;
 
     useEffect(() => {
-  let ticker = setInterval(() => {
-    tick();
-  }, delta);
+        let ticker = setInterval(() => {
+            tick();
+        }, delta);
 
-  return () => { clearInterval(ticker); }
-}, [tick, delta]);
+        return () => { clearInterval(ticker); }
+    }, [text]);
 
     const tick = () => {
         let i = loopNum % toRotate.length;
