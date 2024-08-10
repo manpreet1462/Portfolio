@@ -72,18 +72,18 @@ export const Projects = () => {
                             <Tab.Content>
                                 <Tab.Pane eventKey="first">
                                     <Row>
-                                        <a style={{display:'flex', gap:'20px' ,color:'inherit'}} href='#'>{projects.map((project, index) => (
+                                        <a style={{display:'flex', gap:'20px' ,color:'inherit'}} href='https://fooddelivery111.netlify.app'>{projects.map((project, index) => (
                                             <ProjectCard key={index} {...project} />
                                         ))}</a>
                                     </Row>
                                 </Tab.Pane>
                                 <Tab.Pane eventKey="second"><Row>
-                                <a style={{display:'flex', gap:'20px', color:'inherit'}} href='#'>{frontendProjects.map((project, index) => (
+                                <a style={{display:'flex', gap:'20px', color:'inherit'}} href='spotify-project-frontend.netlify.app'>{frontendProjects.map((project, index) => (
                                             <ProjectCard key={index} {...project} />
                                         ))}</a>
                                     </Row></Tab.Pane>
                                 <Tab.Pane eventKey="third"><Row>
-                                <a style={{display:'flex', gap:'20px' , color:'inherit'}} href='#'>{frontendProjects.map((project, index) => (
+                                <a style={{display:'flex', gap:'20px' , color:'inherit'}} href='https://fitness-site-new.netlify.app'>{frontendProjects.map((project, index) => (
                                             <ProjectCard key={index} {...project} />
                                         ))}</a>
                                     </Row></Tab.Pane>
