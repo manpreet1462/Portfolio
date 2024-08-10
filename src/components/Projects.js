@@ -10,36 +10,36 @@ import TrackVisibility from 'react-on-screen'
 export const Projects = () => {
     const projects = [
         {
-            title: "Ecommerce",
-            description: "Explore. Buy. Enjoy.",
+            title: "Tomato",
+            description: "Browse. Bite. Savor.",
             imgUrl: projImg1,
         },
         {
-            title: "Ecommerce",
-            description: "Explore. Buy. Enjoy.",
+            title: "Spotify",
+            description: "Discover. Listen. Groove.",
             imgUrl: projImg2,
         },
         {
-            title: "Ecommerce",
-            description: "Explore. Buy. Enjoy.",
+            title: "Fitness Site",
+            description: "Train. Sweat. Achieve.",
             imgUrl: projImg3,
         },
         
     ];
     const frontendProjects = [
         {
-            title: "Ecommerce",
-            description: "Explore. Buy. Enjoy.",
+            title: "Tomato",
+            description: "Browse. Bite. Savor.",
             imgUrl: projImg1,
         },
         {
-            title: "Ecommerce",
-            description: "Explore. Buy. Enjoy.",
+            title: "Spotify",
+            description: "Discover. Listen. Groove.",
             imgUrl: projImg2,
         },
         {
-            title: "Ecommerce",
-            description: "Explore. Buy. Enjoy.",
+            title: "Fitness Site",
+            description: "Train. Sweat. Achieve.",
             imgUrl: projImg3,
         },
         
